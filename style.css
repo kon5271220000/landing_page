@@ -4,6 +4,7 @@ body {
 
 .header {
     background-color: #1f2937;
+    padding-bottom: 16px;
 }
 
 .topNavbar{
@@ -65,8 +66,16 @@ body {
 }
 
 .topContent button{
+    margin-top: 8px;
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
     background-color: #3882f6;
     color: #f9faf8;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 10px/10px;
 }
 
 .topContentImage{
@@ -79,6 +88,46 @@ body {
     margin-top: 48px;
     margin-left: 48px;
     padding: 8px;
-    width: 50%;
-    height: auto;
+    width: 75%;
+    height: 75%;
+}
+
+.section_2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 0 70px 0;
+    gap: 25px;
+}
+
+.random_inform {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bold;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    gap: 40px;
+}
+
+.card_info img{
+    width: 150px;
+    height: 150px;
+    border: solid 3px;
+    border-radius: 20px;
+    border-color: #3882f6;
+}
+
+.card_info p{
+    margin-top: 10px;
+    text-align: center;
+    color:#1F2937;
+    font-family: 'Courier New', Courier, monospace;
 }
