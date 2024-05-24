@@ -185,3 +185,11 @@ body {
     border-color: #f9faf8;
 }
 
+.footer {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+}
