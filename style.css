@@ -80,7 +80,7 @@ body {
 
 .topContentImage{
     align-items: center;
-
+    
 }
 
 
@@ -150,5 +150,38 @@ body {
 .quote_author {
     font-weight: bold;
     margin-left: 750px;
+}
+
+.section_4 {
+    display: flex;
+    margin: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-left: 150px;
+    padding-right: 150px;
+    border: solid;
+    border-radius: 10px;
+    border-color: #3882f6;
+    background-color: #3882f6;
+    justify-content: space-between;
+}
+
+.action {
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.section_4 button {
+    margin: 30px;
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 10px/10px;
+    border-color: #f9faf8;
 }
 
