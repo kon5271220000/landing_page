@@ -131,3 +131,24 @@ body {
     color:#1F2937;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.section_3 {
+    background-color: #e5e7eb;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote_author {
+    font-weight: bold;
+    margin-left: 750px;
+}
+
